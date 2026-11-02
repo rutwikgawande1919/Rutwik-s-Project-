@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Customer support — DealerDrive</title>
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css"><link rel="stylesheet" href="css/support.css">
+<script defer src="js/data.js"></script><script defer src="js/shared.js"></script><script defer src="js/support.js"></script></head>
+<body data-page="support"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="brand-icon"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+          </svg></span> dealerdrive</a><button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-controls="mainNav" aria-expanded="false">☰</button><nav id="mainNav" aria-label="Main navigation"><a href="index.html" >Home</a><a href="buy.html" >Buy a car</a><a href="sell.html" >Sell your car</a><a href="services.html" >Services</a><a href="shortlist.html" >Shortlist <span id="shortlistBadge">0</span></a><a href="support.html" aria-current="page" >Support</a></nav><div class="header-actions"><label class="city-label"><span class="sr-only">Your city</span><select id="citySelect"><option>Bengaluru</option><option>Pune</option><option>Mumbai</option><option>Delhi NCR</option><option>Hyderabad</option></select></label><a class="profile-link" href="sign-in.html" id="profileLink">Sign in ↗</a></div></div></header>
+<main id="main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16"><section id="supportSection" class="max-w-3xl mx-auto space-y-6 pt-2">
+    <div class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+      <div>
+        <span class="text-[10px] font-bold uppercase tracking-wider bg-forest text-white px-2.5 py-1 rounded">Here to help</span>
+        <h1 class="text-2xl font-extrabold text-forest mt-1.5">Customer Support & Help Desk</h1>
+        <p class="text-xs text-slate-500 mt-0.5">Save a request for test drives, valuations, or ownership transfer. This demo keeps requests on this browser; no message is sent to a dealer.</p>
+      </div>
+      <form class="space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label for="ticketName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Full Name *</label>
+            <input type="text" id="ticketName" required placeholder="Your name" class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+          </div>
+          <div>
+            <label for="ticketPhone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Mobile Number *</label>
+            <input type="tel" id="ticketPhone" required placeholder="+91 98765 43210" class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+          </div>
+        </div>
+        <div>
+          <label for="ticketCategory" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Request Category *</label>
+          <select id="ticketCategory" class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+            <option value="Home Test Drive">Home Test Drive Inquiry</option>
+            <option value="Car Valuation Query">Car Valuation & Payout Query</option>
+            <option value="RC Transfer & Paperwork">RC Transfer & Documentation</option>
+            <option value="General Inquiry">General Support</option>
+          </select>
+        </div>
+        <div>
+          <label for="ticketMessage" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Describe Your Request / Issue *</label>
+          <textarea id="ticketMessage" rows="4" required placeholder="Type your message here..." class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl p-3.5 font-semibold text-slate-800"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3.5 bg-forest hover:bg-forest-dark text-white font-bold text-xs rounded-xl shadow-xs cursor-pointer transition-all">
+          Save support request
+        </button>
+      </form>
+
+      <!-- Active Tickets Log -->
+      <div class="border-t border-slate-100 pt-6 space-y-3">
+        <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider">Your Recent Tickets</h4>
+        <div id="ticketsListContainer" class="space-y-2">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section></main>
+<footer><a class="brand" href="index.html">dealerdrive</a><p>A good car. A great feeling.</p><p class="demo-note">Demo project · Sample inventory · Requests are saved only in this browser.</p><a href="support.html">Customer support →</a></footer><div id="toastNotification" role="status" aria-live="polite" hidden></div></body></html>

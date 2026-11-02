@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sell your car — DealerDrive</title>
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css"><link rel="stylesheet" href="css/sell.css">
+<script defer src="js/data.js"></script><script defer src="js/shared.js"></script><script defer src="js/sell.js"></script></head>
+<body data-page="sell"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="brand-icon"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+          </svg></span> dealerdrive</a><button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-controls="mainNav" aria-expanded="false">☰</button><nav id="mainNav" aria-label="Main navigation"><a href="index.html" >Home</a><a href="buy.html" >Buy a car</a><a href="sell.html" aria-current="page" >Sell your car</a><a href="services.html" >Services</a><a href="shortlist.html" >Shortlist <span id="shortlistBadge">0</span></a><a href="support.html" >Support</a></nav><div class="header-actions"><label class="city-label"><span class="sr-only">Your city</span><select id="citySelect"><option>Bengaluru</option><option>Pune</option><option>Mumbai</option><option>Delhi NCR</option><option>Hyderabad</option></select></label><a class="profile-link" href="sign-in.html" id="profileLink">Sign in ↗</a></div></div></header>
+<main id="main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16"><section id="sellerSection" class="max-w-3xl mx-auto space-y-6 pt-2">
+
+    <!-- Section Header -->
+    <div class="text-center space-y-2">
+    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-[#E6F0E6] text-forest uppercase tracking-wider">
+      <i data-lucide="zap" class="w-3.5 h-3.5"></i> Car valuation
+    </span>
+      <h1 class="text-3xl font-extrabold text-forest">A good next chapter.</h1>
+      <p class="text-slate-500 text-sm max-w-md mx-auto">Explore an illustrative valuation, then plan your inspection.</p>
+    </div>
+
+    <!-- Step 1: Valuation Form -->
+    <div id="valuationFormCard" class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5">
+      <form class="space-y-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label for="sellerMake" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Make / Brand *</label>
+            <select id="sellerMake" required class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+              <option value="Hyundai">Hyundai</option>
+              <option value="Honda">Honda</option>
+              <option value="Tata">Tata Motors</option>
+              <option value="Mahindra">Mahindra</option>
+              <option value="Toyota">Toyota</option>
+              <option value="Maruti Suzuki">Maruti Suzuki</option>
+            </select>
+          </div>
+          <div>
+            <label for="sellerModel" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Model *</label>
+            <input type="text" id="sellerModel" required value="Creta SX(O)" placeholder="e.g. Creta, City, Nexon" class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+          </div>
+          <div>
+            <label for="sellerYear" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Registration Year *</label>
+            <select id="sellerYear" class="w-full text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 font-semibold text-slate-800">
+              <option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022" selected>2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+            </select>
+          </div>
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs font-bold text-slate-700 uppercase tracking-wider">Kilometers Driven</label>
+              <span id="kmLabel" class="text-xs font-bold text-forest">28,000 km</span>
+            </div>
+            <input type="range" id="sellerKm" min="5000" max="120000" step="2000" value="28000" class="w-full accent-forest cursor-pointer">
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Condition</label>
+          <div class="grid grid-cols-3 gap-3 text-center">
+            <label class="p-3 bg-slate-50 rounded-xl border-2 border-forest cursor-pointer block">
+              <input type="radio" name="sellerCond" value="flawless" class="sr-only" checked>
+              <div class="text-xs font-bold text-slate-900">Flawless ✨</div>
+              <div class="text-[10px] text-slate-500 mt-0.5">No scratches</div>
+            </label>
+            <label class="p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer block">
+              <input type="radio" name="sellerCond" value="good" class="sr-only">
+              <div class="text-xs font-bold text-slate-900">Good 👍</div>
+              <div class="text-[10px] text-slate-500 mt-0.5">Minor wear</div>
+            </label>
+            <label class="p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer block">
+              <input type="radio" name="sellerCond" value="fair" class="sr-only">
+              <div class="text-xs font-bold text-slate-900">Fair ⚙️</div>
+              <div class="text-[10px] text-slate-500 mt-0.5">Needs service</div>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="w-full py-3.5 bg-forest hover:bg-forest-dark text-white font-bold text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer">
+          <span>Estimate my car value</span>
+          <span>→</span>
+        </button>
+      </form>
+    </div>
+
+</section></main>
+<footer><a class="brand" href="index.html">dealerdrive</a><p>A good car. A great feeling.</p><p class="demo-note">Demo project · Sample inventory · Requests are saved only in this browser.</p><a href="support.html">Customer support →</a></footer><div id="toastNotification" role="status" aria-live="polite" hidden></div></body></html>

@@ -1,0 +1,3 @@
+/* Styles specific to the our services page. Shared design tokens live in shared.css. */
+body[data-page="services"] main { min-height: 65vh; }
+.service-card{transition:transform .2s,box-shadow .2s}.service-card:hover{transform:translateY(-3px);box-shadow:0 14px 35px #1e3a2b0c}.sage-panel{margin-top:40px}

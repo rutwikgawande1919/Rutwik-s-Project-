@@ -1,0 +1,3 @@
+/* Styles specific to the a good car. a great feeling. page. Shared design tokens live in shared.css. */
+body[data-page="index"] main { min-height: 65vh; }
+#heroSection{padding-top:4px}#inventorySection{scroll-margin-top:100px}.section-heading{margin-top:50px}

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 520 280"  fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="360" cy="115" r="82" fill="#D2E2D1" />
+            <path d="M0 215 Q260 200 520 215" stroke="#CBDAC9" stroke-width="2.5" stroke-dasharray="4 6" />
+            <ellipse cx="270" cy="214" rx="190" ry="8" fill="#14382C" fill-opacity="0.12" />
+            <path d="M85 195 L115 158 C120 152 135 150 160 150 L380 150 C410 150 435 162 455 178 L465 192 C470 196 468 202 460 202 L100 202 C90 202 82 199 85 195 Z" fill="#1D4838"/>
+            <path d="M190 150 L205 110 C210 102 218 98 230 98 L330 98 C342 98 350 104 355 112 L385 150 Z" fill="#C4D7C3"/>
+            <line x1="280" y1="100" x2="280" y2="150" stroke="#1D4838" stroke-width="2.5" />
+            <ellipse cx="452" cy="180" rx="3.5" ry="2" fill="#E8F4E7" />
+            <g transform="translate(162, 198)"><circle cx="0" cy="0" r="28" fill="#14382C" /><circle cx="0" cy="0" r="24" stroke="#FFFFFF" stroke-width="4.5" fill="none" /><circle cx="0" cy="0" r="19" fill="#1D4838" /><circle cx="0" cy="0" r="4.5" fill="#E8F4E7" /></g>
+            <g transform="translate(382, 198)"><circle cx="0" cy="0" r="28" fill="#14382C" /><circle cx="0" cy="0" r="24" stroke="#FFFFFF" stroke-width="4.5" fill="none" /><circle cx="0" cy="0" r="19" fill="#1D4838" /><circle cx="0" cy="0" r="4.5" fill="#E8F4E7" /></g>
+          </svg>

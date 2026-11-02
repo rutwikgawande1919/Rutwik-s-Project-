@@ -1,0 +1,3 @@
+/* Styles specific to the demo profile page. Shared design tokens live in shared.css. */
+body[data-page="sign-in"] main { min-height: 65vh; }
+#profileStatus{font-size:13px;color:var(--forest)}.narrow{margin-top:30px}

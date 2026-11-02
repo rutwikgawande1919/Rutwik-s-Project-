@@ -1,0 +1,3 @@
+/* Styles specific to the your shortlist page. Shared design tokens live in shared.css. */
+body[data-page="shortlist"] main { min-height: 65vh; }
+#shortlistSection{min-height:50vh}#emptyShortlist{margin-top:24px}

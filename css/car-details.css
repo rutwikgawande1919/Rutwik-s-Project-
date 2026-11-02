@@ -1,0 +1,17 @@
+/* Styles specific to the car details page. Shared design tokens live in shared.css. */
+body[data-page="car-details"] main { min-height: 65vh; }
+.car-gallery { display:flex; gap:12px; overflow-x:auto; padding:4px; }
+.gallery-thumb { padding:4px; border:2px solid transparent; border-radius:12px; background:var(--sage); cursor:pointer; flex:0 0 140px; color:var(--forest); font:inherit; font-size:12px; }
+.gallery-thumb[aria-pressed="true"] { border-color:var(--forest); }
+.gallery-thumb:focus-visible { outline:3px solid var(--forest); outline-offset:2px; }
+.gallery-thumb img { width:100%; height:82px; object-fit:cover; border-radius:7px; }
+.gallery-thumb span { display:block; padding:5px; }
+.photo-note { font-size:11px; line-height:1.7; color:#64748b; margin-top:12px; }
+.photo-note a { text-decoration:underline; }
+.detail-heading { font-size:20px; font-weight:800; color:var(--forest); margin-bottom:12px; }
+.car-description { font-size:14px; line-height:1.8; color:#475569; margin-bottom:20px; }
+.car-specs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 24px; }
+.car-specs > div { padding:14px 0; border-bottom:1px solid #e2e8f0; }
+.car-specs dt { font-size:11px; color:#64748b; margin-bottom:5px; }
+.car-specs dd { margin:0; font-size:13px; font-weight:700; color:#183d32; overflow-wrap:anywhere; }
+#modalFeatures{gap:8px}#modalImg{background:var(--sage)}@media(max-width:640px){#main>div>div:first-child{height:340px}#main .absolute.bottom-4{flex-direction:column;align-items:start;gap:12px}#main .absolute.bottom-4 .text-right{text-align:left}#modalScore{white-space:nowrap}}

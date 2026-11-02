@@ -1,0 +1,3 @@
+/* Styles specific to the sell your car page. Shared design tokens live in shared.css. */
+body[data-page="sell"] main { min-height: 65vh; }
+#sellerSection{max-width:800px}#valuationResultCard:focus{outline:none}#offerPriceDisplay{white-space:nowrap}@media(max-width:640px){#valuationResultCard>div:first-child{align-items:start;flex-direction:column;gap:20px}#valuationResultCard .text-right{text-align:left}}

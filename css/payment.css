@@ -1,0 +1,2 @@
+/* Seller payment details page styles */
+.sage-panel p{font-size:14px;line-height:1.8;margin:20px 0}#paymentForm>label:has(input[type=checkbox]){font-size:12px;line-height:1.7;border:0!important;background:none}#paymentStatus{font-size:13px;color:var(--forest)}

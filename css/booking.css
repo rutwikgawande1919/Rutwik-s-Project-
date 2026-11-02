@@ -1,0 +1,3 @@
+/* Styles specific to the plan an appointment page. Shared design tokens live in shared.css. */
+body[data-page="booking"] main { min-height: 65vh; }
+#bookingFeedback{color:var(--forest);font-size:13px;line-height:1.6}.record-list{max-height:640px;overflow:auto}

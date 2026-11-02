@@ -1,0 +1,2 @@
+/* Your car estimate page styles */
+#estimateContent{max-width:780px;background:var(--sage)}.estimate-price{font-size:42px;font-weight:800;color:var(--forest);margin:20px 0}.estimate-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}

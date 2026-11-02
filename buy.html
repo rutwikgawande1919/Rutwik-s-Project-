@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Buy a car — DealerDrive</title>
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css"><link rel="stylesheet" href="css/buy.css">
+<script defer src="js/data.js"></script><script defer src="js/shared.js"></script><script defer src="js/catalog.js"></script><script defer src="js/buy.js"></script></head>
+<body data-page="buy"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="brand-icon"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+          </svg></span> dealerdrive</a><button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-controls="mainNav" aria-expanded="false">☰</button><nav id="mainNav" aria-label="Main navigation"><a href="index.html" >Home</a><a href="buy.html" aria-current="page" >Buy a car</a><a href="sell.html" >Sell your car</a><a href="services.html" >Services</a><a href="shortlist.html" >Shortlist <span id="shortlistBadge">0</span></a><a href="support.html" >Support</a></nav><div class="header-actions"><label class="city-label"><span class="sr-only">Your city</span><select id="citySelect"><option>Bengaluru</option><option>Pune</option><option>Mumbai</option><option>Delhi NCR</option><option>Hyderabad</option></select></label><a class="profile-link" href="sign-in.html" id="profileLink">Sign in ↗</a></div></div></header>
+<main id="main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16"><div class="page-heading"><p class="eyebrow">Find your next car</p><h1>Good cars. Clear choices.</h1><p>Explore the original sample inventory and save your favourites.</p></div><label class="field search-field">Search cars<input id="heroSearchInput" placeholder="Try Hyundai Creta or Honda City"></label><section id="inventorySection" class="space-y-6 pt-4">
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-forest tracking-tight" id="catalogHeaderTitle">Sample cars in Bengaluru</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">Explore details, estimate EMI, and plan a test drive</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <button data-filter="All" class="body-filter-btn px-4 py-2 rounded-full text-xs font-bold bg-forest text-white transition-all shadow-xs" data-type="All">All Cars</button>
+        <button data-filter="SUV" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="SUV">SUVs</button>
+        <button data-filter="Sedan" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="Sedan">Sedans</button>
+        <button data-filter="Hatchback" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="Hatchback">Hatchbacks</button>
+      </div>
+    </div>
+    <div id="carsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Rendered by JavaScript -->
+    </div>
+  </section></main>
+<footer><a class="brand" href="index.html">dealerdrive</a><p>A good car. A great feeling.</p><p class="demo-note">Demo project · Sample inventory · Requests are saved only in this browser.</p><a href="support.html">Customer support →</a></footer><div id="toastNotification" role="status" aria-live="polite" hidden></div></body></html>
+

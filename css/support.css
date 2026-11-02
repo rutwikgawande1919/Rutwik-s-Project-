@@ -1,0 +1,3 @@
+/* Styles specific to the customer support page. Shared design tokens live in shared.css. */
+body[data-page="support"] main { min-height: 65vh; }
+#supportSection{max-width:840px}.record strong{color:var(--forest)}#ticketsListContainer{max-height:480px;overflow:auto}

@@ -1,0 +1,3 @@
+/* Styles specific to the buy a car page. Shared design tokens live in shared.css. */
+body[data-page="buy"] main { min-height: 65vh; }
+#inventorySection{margin-top:32px}.search-field input{background:white}.body-filter-btn:focus-visible{outline-offset:5px}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>A good car. A great feeling. — DealerDrive</title>
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css"><link rel="stylesheet" href="css/index.css">
+<script defer src="js/data.js"></script><script defer src="js/shared.js"></script><script defer src="js/catalog.js"></script><script defer src="js/index.js"></script></head>
+<body data-page="index"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="brand-icon"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+          </svg></span> dealerdrive</a><button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-controls="mainNav" aria-expanded="false">☰</button><nav id="mainNav" aria-label="Main navigation"><a href="index.html" aria-current="page" >Home</a><a href="buy.html" >Buy a car</a><a href="sell.html" >Sell your car</a><a href="services.html" >Services</a><a href="shortlist.html" >Shortlist <span id="shortlistBadge">0</span></a><a href="support.html" >Support</a></nav><div class="header-actions"><label class="city-label"><span class="sr-only">Your city</span><select id="citySelect"><option>Bengaluru</option><option>Pune</option><option>Mumbai</option><option>Delhi NCR</option><option>Hyderabad</option></select></label><a class="profile-link" href="sign-in.html" id="profileLink">Sign in ↗</a></div></div></header>
+<main id="main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12 sm:space-y-16"><section id="heroSection" class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+    <div class="lg:col-span-7 space-y-6 sm:space-y-8">
+      <div class="flex items-center gap-2 text-xs font-bold tracking-[0.16em] text-[#345A4B] uppercase">
+        <span class="w-2 h-2 rounded-full bg-forest"></span>
+        <span>THE BETTER WAY TO CHANGE CARS</span>
+      </div>
+      <div class="space-y-1">
+        <h1 class="text-5xl sm:text-7xl lg:text-[76px] font-extrabold tracking-[-0.03em] text-forest leading-[1.05]">
+          A good car.<br>A great feeling.
+        </h1>
+        <p class="text-slate-500 text-base sm:text-lg max-w-lg pt-3 font-normal leading-relaxed">
+          Find a car you’ll love, with the details and confidence to make it yours.
+        </p>
+      </div>
+      <div class="flex items-center gap-3 pt-1">
+        <button id="pillBuy" data-href="buy.html" class="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white text-slate-900 border border-slate-200/80 shadow-xs flex items-center gap-2 transition-all">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-slate-600"></i>
+          <span>I’m looking to buy</span>
+        </button>
+        <button id="pillSell" data-href="sell.html" class="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100/80 flex items-center gap-1.5 transition-all">
+          <span class="text-xs font-bold text-slate-500">↗</span>
+          <span>I want to sell</span>
+        </button>
+      </div>
+      <div class="max-w-xl">
+        <div class="relative bg-white border border-slate-200 rounded-full p-2 pl-4 flex items-center shadow-xs focus-within:ring-2 focus-within:ring-forest/20 focus-within:border-forest transition-all">
+          <i data-lucide="search" class="w-5 h-5 text-slate-400 mr-2.5 shrink-0"></i>
+          <input type="text" id="heroSearchInput" placeholder="Try ‘Hyundai Creta’ or ‘Honda City’" class="w-full text-xs sm:text-sm bg-transparent outline-none placeholder:text-slate-400 text-slate-800 font-medium">
+          <button data-action="executeSearch" class="bg-forest hover:bg-forest-dark text-white text-xs sm:text-sm font-bold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center gap-2 shrink-0 transition-all shadow-xs">
+            <span>Explore cars</span>
+            <span class="text-sm font-normal">→</span>
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-3 sm:gap-5 text-xs font-medium text-slate-600 pt-1">
+        <div class="flex items-center gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-forest"></i><span>Inspected cars</span></div>
+        <span class="text-slate-300">•</span>
+        <div class="flex items-center gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-forest"></i><span>Clear history</span></div>
+        <span class="text-slate-300">•</span>
+        <div class="flex items-center gap-1.5"><i data-lucide="file-text" class="w-4 h-4 text-forest"></i><span>Fair offers</span></div>
+      </div>
+    </div>
+    <div class="lg:col-span-5">
+      <div class="relative bg-[#DEE8DD] rounded-[32px] p-6 sm:p-8 flex flex-col justify-between min-h-[380px] sm:min-h-[440px] overflow-hidden shadow-xs border border-[#D5E1D4]">
+        <div class="flex items-center justify-between text-[11px] font-bold tracking-[0.18em] text-[#34594A] uppercase relative z-10">
+          <span>GOOD CARS, GOOD PEOPLE</span>
+          <span>01 — 03</span>
+        </div>
+        <div class="my-auto relative flex items-center justify-center py-6">
+          <svg viewBox="0 0 520 280" class="w-full max-w-[480px] h-auto drop-shadow-xs" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="360" cy="115" r="82" fill="#D2E2D1" />
+            <path d="M0 215 Q260 200 520 215" stroke="#CBDAC9" stroke-width="2.5" stroke-dasharray="4 6" />
+            <ellipse cx="270" cy="214" rx="190" ry="8" fill="#14382C" fill-opacity="0.12" />
+            <path d="M85 195 L115 158 C120 152 135 150 160 150 L380 150 C410 150 435 162 455 178 L465 192 C470 196 468 202 460 202 L100 202 C90 202 82 199 85 195 Z" fill="#1D4838"/>
+            <path d="M190 150 L205 110 C210 102 218 98 230 98 L330 98 C342 98 350 104 355 112 L385 150 Z" fill="#C4D7C3"/>
+            <line x1="280" y1="100" x2="280" y2="150" stroke="#1D4838" stroke-width="2.5" />
+            <ellipse cx="452" cy="180" rx="3.5" ry="2" fill="#E8F4E7" />
+            <g transform="translate(162, 198)"><circle cx="0" cy="0" r="28" fill="#14382C" /><circle cx="0" cy="0" r="24" stroke="#FFFFFF" stroke-width="4.5" fill="none" /><circle cx="0" cy="0" r="19" fill="#1D4838" /><circle cx="0" cy="0" r="4.5" fill="#E8F4E7" /></g>
+            <g transform="translate(382, 198)"><circle cx="0" cy="0" r="28" fill="#14382C" /><circle cx="0" cy="0" r="24" stroke="#FFFFFF" stroke-width="4.5" fill="none" /><circle cx="0" cy="0" r="19" fill="#1D4838" /><circle cx="0" cy="0" r="4.5" fill="#E8F4E7" /></g>
+          </svg>
+          <div class="absolute -bottom-2 sm:bottom-0 left-1 sm:left-4 bg-white/95 backdrop-blur-md rounded-2xl p-3 sm:p-3.5 shadow-lg shadow-black/5 border border-white flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-[#E5F1E5] text-forest flex items-center justify-center shrink-0">
+              <i data-lucide="check" class="w-4 h-4 stroke-[2.5]"></i>
+            </div>
+            <div class="pr-2">
+              <div class="text-xs sm:text-sm font-bold text-slate-900 leading-tight">Every car, checked.</div>
+              <div class="text-[11px] text-slate-500 font-medium leading-tight mt-0.5">Know what you’re buying.</div>
+            </div>
+          </div>
+        </div>
+        <div class="text-right text-[11px] font-bold tracking-widest text-[#34594A]/80 uppercase relative z-10">DD · 2025</div>
+      </div>
+    </div>
+  </section><section class="border-t border-slate-100 pt-8 sm:pt-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
+      <div class="flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-full bg-[#EBF3EB] text-forest flex items-center justify-center shrink-0"><i data-lucide="check-circle" class="w-5 h-5 stroke-[2]"></i></div>
+        <div><h4 class="text-sm font-bold text-slate-900 leading-snug">Know the car</h4><p class="text-xs text-slate-500 font-medium">Inspection details up front</p></div>
+      </div>
+      <div class="flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-full bg-[#EBF3EB] text-forest flex items-center justify-center shrink-0"><i data-lucide="users" class="w-5 h-5 stroke-[2]"></i></div>
+        <div><h4 class="text-sm font-bold text-slate-900 leading-snug">Talk to real people</h4><p class="text-xs text-slate-500 font-medium">Local dealer support</p></div>
+      </div>
+      <div class="flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-full bg-[#EBF3EB] text-forest flex items-center justify-center shrink-0"><i data-lucide="wallet" class="w-5 h-5 stroke-[2]"></i></div>
+        <div><h4 class="text-sm font-bold text-slate-900 leading-snug">Clear price</h4><p class="text-xs text-slate-500 font-medium">No confusing surprises</p></div>
+      </div>
+      <div class="lg:text-right">
+        <button data-href="services.html" class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-slate-900 hover:text-forest group cursor-pointer bg-transparent border-none">
+          <span>How it works</span><span class="group-hover:translate-x-1 transition-transform">→</span>
+        </button>
+      </div>
+    </div>
+  </section><div class="section-heading"><h2>Find your next good feeling.</h2><a href="buy.html">View all cars →</a></div><section id="inventorySection" class="space-y-6 pt-4">
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-forest tracking-tight" id="catalogHeaderTitle">Sample cars in Bengaluru</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">Explore details, estimate EMI, and plan a test drive</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <button data-filter="All" class="body-filter-btn px-4 py-2 rounded-full text-xs font-bold bg-forest text-white transition-all shadow-xs" data-type="All">All Cars</button>
+        <button data-filter="SUV" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="SUV">SUVs</button>
+        <button data-filter="Sedan" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="Sedan">Sedans</button>
+        <button data-filter="Hatchback" class="body-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-type="Hatchback">Hatchbacks</button>
+      </div>
+    </div>
+    <div id="carsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Rendered by JavaScript -->
+    </div>
+  </section></main>
+<footer><a class="brand" href="index.html">dealerdrive</a><p>A good car. A great feeling.</p><p class="demo-note">Demo project · Sample inventory · Requests are saved only in this browser.</p><a href="support.html">Customer support →</a></footer><div id="toastNotification" role="status" aria-live="polite" hidden></div></body></html>
+
