@@ -476,5 +476,193 @@ const CAR_DATABASE = [
     "score": "Not inspected",
     "registration": "Karnataka",
     "image": "assets/cars/car-10-1.jpg"
+  },
+  {
+    "id": "car-11",
+    "make": "Toyota",
+    "model": "Innova Crysta 2.4 ZX",
+    "year": 2022,
+    "priceLakh": 23.75,
+    "mileage": 32400,
+    "fuel": "Diesel",
+    "trans": "Manual",
+    "engineCc": 2393,
+    "seats": 7,
+    "body": "MPV",
+    "gearbox": "5-speed manual",
+    "hub": "Bellandur Hub",
+    "features": [
+      "Seven Seats",
+      "Second-row Captain Seats",
+      "Automatic Climate Control",
+      "Rear Parking Camera"
+    ],
+    "description": "A spacious seven-seat MPV with a diesel engine and comfortable captain seats in the second row. A practical choice for family journeys and travelling with luggage.",
+    "photos": [
+      {
+        "src": "assets/cars/car-11-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Kijang_Innova_2.0_V_Luxury_(front)%2C_Citraland%2C_West_Surabaya.jpg",
+        "author": "Alex Neman",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Toyota Innova Crysta 2.4 ZX — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-11-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Kijang_Innova_2.0_V_Luxury_(rear)%2C_Citraland%2C_West_Surabaya.jpg",
+        "author": "Alex Neman",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Toyota Innova Crysta 2.4 ZX — reference exterior 2"
+      }
+    ],
+    "owners": "1st Owner",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-11-1.jpg"
+  },
+  {
+    "id": "car-12",
+    "make": "Mercedes-Benz",
+    "model": "GLE 350d 4MATIC",
+    "year": 2018,
+    "priceLakh": 37.5,
+    "mileage": 48600,
+    "fuel": "Diesel",
+    "trans": "Automatic",
+    "engineCc": 2987,
+    "seats": 5,
+    "body": "SUV",
+    "gearbox": "9G-TRONIC 9-speed automatic",
+    "hub": "Indiranagar Hub",
+    "features": [
+      "V6 Diesel Engine",
+      "4MATIC All-wheel Drive",
+      "Electric Front Seats",
+      "Dual-zone Climate Control"
+    ],
+    "description": "A premium five-seat SUV with a V6 diesel engine, nine-speed automatic gearbox and 4MATIC all-wheel drive. Its roomy cabin is designed for relaxed everyday driving and long-distance comfort.",
+    "photos": [
+      {
+        "src": "assets/cars/car-12-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Front.jpg",
+        "author": "Vauxford",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Mercedes-Benz GLE 350d 4MATIC — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-12-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Rear.jpg",
+        "author": "Vauxford",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Mercedes-Benz GLE 350d 4MATIC — reference exterior 2"
+      },
+      {
+        "src": "assets/cars/car-12-3.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_350_d_(W_166)_wagon_(2016-03-05)_03.jpg",
+        "author": "EurovisionNim",
+        "licence": "CC BY-SA 4.0",
+        "label": "Interior",
+        "alt": "Mercedes-Benz GLE 350d 4MATIC — reference interior"
+      }
+    ],
+    "owners": "1st Owner",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-12-1.jpg"
+  },
+  {
+    "id": "car-13",
+    "make": "Toyota",
+    "model": "Fortuner 2.8 4x4 AT",
+    "year": 2022,
+    "priceLakh": 35.9,
+    "mileage": 28700,
+    "fuel": "Diesel",
+    "trans": "Automatic",
+    "engineCc": 2755,
+    "seats": 7,
+    "body": "SUV",
+    "gearbox": "6-speed automatic",
+    "hub": "Koramangala Hub",
+    "features": [
+      "Four-wheel Drive",
+      "Seven Seats",
+      "Paddle Shifters",
+      "Cruise Control"
+    ],
+    "description": "A seven-seat diesel SUV with a commanding driving position, automatic transmission and four-wheel drive. Flexible seating makes it a versatile option for family trips and weekend travel.",
+    "photos": [
+      {
+        "src": "assets/cars/car-13-1.png",
+        "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_front_view.png",
+        "author": "Autosdeprimera",
+        "licence": "CC BY 3.0",
+        "label": "Exterior 1",
+        "alt": "Toyota Fortuner 2.8 4x4 AT — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-13-2.png",
+        "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_rear_view_01.png",
+        "author": "Autosdeprimera",
+        "licence": "CC BY 3.0",
+        "label": "Exterior 2",
+        "alt": "Toyota Fortuner 2.8 4x4 AT — reference exterior 2"
+      }
+    ],
+    "owners": "1st Owner",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-13-1.png"
+  },
+  {
+    "id": "car-14",
+    "make": "BMW",
+    "model": "M5 Competition Sedan",
+    "year": 2019,
+    "priceLakh": 82.5,
+    "mileage": 21800,
+    "fuel": "Petrol",
+    "trans": "Automatic",
+    "engineCc": 4395,
+    "seats": 5,
+    "body": "Sedan",
+    "gearbox": "8-speed M Steptronic automatic",
+    "hub": "Indiranagar Hub",
+    "features": [
+      "4.4-litre Twin-turbo V8",
+      "M xDrive All-wheel Drive",
+      "M Sport Seats",
+      "Adaptive M Suspension"
+    ],
+    "description": "A high-performance four-door sedan combining a twin-turbo V8 with M xDrive and an eight-speed automatic gearbox. Five-seat practicality meets a driver-focused cabin and adjustable performance settings.",
+    "photos": [
+      {
+        "src": "assets/cars/car-14-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2019_BMW_M5_Competition_in_Silver%2C_front_right_(US).jpg",
+        "author": "Mr.choppers",
+        "licence": "CC BY-SA 3.0",
+        "label": "Exterior 1",
+        "alt": "BMW M5 Competition Sedan — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-14-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2018_BMW_M5_Competition_in_Alpinwei%C3%9F%2C_rear_left.jpg",
+        "author": "Mr.choppers",
+        "licence": "CC BY-SA 3.0",
+        "label": "Exterior 2",
+        "alt": "BMW M5 Competition Sedan — reference exterior 2"
+      }
+    ],
+    "owners": "1st Owner",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-14-1.jpg"
   }
 ];

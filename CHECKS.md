@@ -1,5 +1,13 @@
 # Verification
 
+## Toyota, Mercedes-Benz and BMW additions (2026-11-02)
+
+- Added Innova Crysta, GLE 350d, Fortuner and M5 Competition Sedan: 14 listings and 32 local reference photos total.
+- Added MPV filtering to the home and buy pages for the Innova Crysta.
+- Checked unique IDs, required details, local photo files and attribution metadata.
+- Executed searches for all four new models and verified MPV, Sedan and SUV filter results.
+- Inventory passes `node --check`. Browser layout verification was not performed for this update.
+
 ## Thar and Jeep additions (2026-11-02)
 
 - Added Thar, Compass, Wrangler and Grand Cherokee: 10 listings and 23 local photos total.

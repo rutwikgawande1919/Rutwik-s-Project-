@@ -45,3 +45,21 @@
 - assets/cars/car-10-1.jpg: 2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White,_Front_Left,_01-16-2022.jpg — Elise240SX. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Front_Left%2C_01-16-2022.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
 
 - assets/cars/car-10-2.jpg: 2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White,_Rear_Left,_01-16-2022.jpg — Elise240SX. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Rear_Left%2C_01-16-2022.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-11-1.jpg: 2021_Toyota_Kijang_Innova_2.0_V_Luxury_(front),_Citraland,_West_Surabaya.jpg — Alex Neman. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2021_Toyota_Kijang_Innova_2.0_V_Luxury_(front)%2C_Citraland%2C_West_Surabaya.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-11-2.jpg: 2021_Toyota_Kijang_Innova_2.0_V_Luxury_(rear),_Citraland,_West_Surabaya.jpg — Alex Neman. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2021_Toyota_Kijang_Innova_2.0_V_Luxury_(rear)%2C_Citraland%2C_West_Surabaya.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-12-1.jpg: 2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Front.jpg — Vauxford. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Front.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-12-2.jpg: 2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Rear.jpg — Vauxford. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_250_Diesel_4MATIC_AMG_Line_Premium_2.1_Rear.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-12-3.jpg: 2016_Mercedes-Benz_GLE_350_d_(W_166)_wagon_(2016-03-05)_03.jpg — EurovisionNim. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2016_Mercedes-Benz_GLE_350_d_(W_166)_wagon_(2016-03-05)_03.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-13-1.png: 2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_front_view.png — Autosdeprimera. CC BY 3.0. Source: https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_front_view.png. Licence: https://creativecommons.org/licenses/by/3.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-13-2.png: 2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_rear_view_01.png — Autosdeprimera. CC BY 3.0. Source: https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_4.0_SRV_4x4_(Colombia)_rear_view_01.png. Licence: https://creativecommons.org/licenses/by/3.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-14-1.jpg: 2019_BMW_M5_Competition_in_Silver,_front_right_(US).jpg — Mr.choppers. CC BY-SA 3.0. Source: https://commons.wikimedia.org/wiki/File:2019_BMW_M5_Competition_in_Silver%2C_front_right_(US).jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-14-2.jpg: 2018_BMW_M5_Competition_in_Alpinweiß,_rear_left.jpg — Mr.choppers. CC BY-SA 3.0. Source: https://commons.wikimedia.org/wiki/File:2018_BMW_M5_Competition_in_Alpinwei%C3%9F%2C_rear_left.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Resized by Wikimedia; displayed cropped in the interface.
