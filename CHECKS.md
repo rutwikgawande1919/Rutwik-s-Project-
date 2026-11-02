@@ -1,5 +1,12 @@
 # Verification
 
+## Thar and Jeep additions (2026-11-02)
+
+- Added Thar, Compass, Wrangler and Grand Cherokee: 10 listings and 23 local photos total.
+- Verified unique listing IDs, required details, all local gallery files and attribution metadata.
+- Executed catalogue search for each added model and Jeep; checked the SUV filter returns seven listings.
+- Updated inventory passes `node --check`. Browser visual verification remains unavailable.
+
 ## Inventory expansion (2026-11-02)
 
 - Expanded to six sample listings with 14 locally stored reference photographs.

@@ -27,3 +27,21 @@
 - assets/cars/car-6-1.jpg: 2023_Tata_Nexon_XZA+_front_view.jpg — Dairokkan9. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2023_Tata_Nexon_XZA%2B_front_view.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
 
 - assets/cars/car-6-2.jpg: 2023_Tata_Nexon_XZA+_rear_view.jpg — Dairokkan9. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2023_Tata_Nexon_XZA%2B_rear_view.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-7-1.jpg: Mahindra_Thar_SUV_in_"Red_Rage"_color_at_Ashiana_Brahmanda,_East_Singbhum_India_(Ank_Kumar,_Infosys_limited)_02.jpg — Ank Kumar . CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_(Ank_Kumar%2C_Infosys_limited)_02.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-7-2.jpg: Mahindra_Thar_SUV_in_"Red_Rage"_color_at_Ashiana_Brahmanda,_East_Singbhum_India_(Ank_Kumar,_Infosys_limited)_03.jpg — Ank Kumar . CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_(Ank_Kumar%2C_Infosys_limited)_03.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-8-1.jpg: Jeep-compass-2018-petrol-at-limited-india-front.jpg — Sim tcr. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-front.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-8-2.jpg: Jeep-compass-2018-petrol-at-limited-india-back.jpg — Sim tcr. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-back.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-8-3.jpg: Jeep-compass-2018-petrol-at-limited-india-dashboard.jpg — Sim tcr. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-dashboard.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-9-1.jpg: 2024_Jeep_Wrangler,_front_NYIAS_2023.jpg — Kevauto. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2024_Jeep_Wrangler%2C_front_NYIAS_2023.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-9-2.jpg: 2024_Jeep_Wrangler,_rear_NYIAS_2023.jpg — Kevauto. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2024_Jeep_Wrangler%2C_rear_NYIAS_2023.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-10-1.jpg: 2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White,_Front_Left,_01-16-2022.jpg — Elise240SX. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Front_Left%2C_01-16-2022.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.
+
+- assets/cars/car-10-2.jpg: 2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White,_Rear_Left,_01-16-2022.jpg — Elise240SX. CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Rear_Left%2C_01-16-2022.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized by Wikimedia; displayed cropped in the interface.

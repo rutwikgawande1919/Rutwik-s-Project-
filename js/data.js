@@ -288,5 +288,193 @@ const CAR_DATABASE = [
         "alt": "Tata Nexon XZ+ 1.2 — reference rear view"
       }
     ]
+  },
+  {
+    "id": "car-7",
+    "make": "Mahindra",
+    "model": "Thar LX 4x4 Diesel AT",
+    "year": 2023,
+    "priceLakh": 14.75,
+    "mileage": 18400,
+    "fuel": "Diesel",
+    "engineCc": 2184,
+    "seats": 4,
+    "gearbox": "6-speed torque converter",
+    "hub": "Bellandur Hub",
+    "features": [
+      "Four-wheel Drive",
+      "Hard Top",
+      "Cruise Control",
+      "Touchscreen Infotainment"
+    ],
+    "description": "An adventure-ready three-door SUV with a diesel automatic powertrain, four-wheel drive and a compact four-seat cabin. A distinctive choice for weekend escapes.",
+    "photos": [
+      {
+        "src": "assets/cars/car-7-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_(Ank_Kumar%2C_Infosys_limited)_02.jpg",
+        "author": "Ank Kumar ",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Mahindra Thar LX 4x4 Diesel AT — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-7-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_(Ank_Kumar%2C_Infosys_limited)_03.jpg",
+        "author": "Ank Kumar ",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Mahindra Thar LX 4x4 Diesel AT — reference exterior 2"
+      }
+    ],
+    "trans": "Automatic",
+    "owners": "1st Owner",
+    "body": "SUV",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-7-1.jpg"
+  },
+  {
+    "id": "car-8",
+    "make": "Jeep",
+    "model": "Compass Limited 1.4 Petrol AT",
+    "year": 2018,
+    "priceLakh": 9.85,
+    "mileage": 48600,
+    "fuel": "Petrol",
+    "engineCc": 1368,
+    "seats": 5,
+    "gearbox": "7-speed dual-clutch automatic",
+    "hub": "Indiranagar Hub",
+    "features": [
+      "Turbo Petrol Engine",
+      "Dual-zone Climate Control",
+      "Touchscreen Infotainment",
+      "Alloy Wheels"
+    ],
+    "description": "A five-seat SUV with a turbo-petrol engine and dual-clutch automatic gearbox. Its comfortable cabin and practical luggage space suit city commutes and longer trips.",
+    "photos": [
+      {
+        "src": "assets/cars/car-8-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-front.jpg",
+        "author": "Sim tcr",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Jeep Compass Limited 1.4 Petrol AT — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-8-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-back.jpg",
+        "author": "Sim tcr",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Jeep Compass Limited 1.4 Petrol AT — reference exterior 2"
+      },
+      {
+        "src": "assets/cars/car-8-3.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-dashboard.jpg",
+        "author": "Sim tcr",
+        "licence": "CC BY-SA 4.0",
+        "label": "Interior",
+        "alt": "Jeep Compass Limited 1.4 Petrol AT — reference interior"
+      }
+    ],
+    "trans": "Automatic",
+    "owners": "1st Owner",
+    "body": "SUV",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-8-1.jpg"
+  },
+  {
+    "id": "car-9",
+    "make": "Jeep",
+    "model": "Wrangler Unlimited 2.0 AT",
+    "year": 2024,
+    "priceLakh": 58.5,
+    "mileage": 12600,
+    "fuel": "Petrol",
+    "engineCc": 1995,
+    "seats": 5,
+    "gearbox": "8-speed automatic",
+    "hub": "Koramangala Hub",
+    "features": [
+      "Four-wheel Drive",
+      "Removable Hard Top",
+      "Turbo Petrol Engine",
+      "Cruise Control"
+    ],
+    "description": "The iconic five-door Wrangler combines a turbo-petrol automatic powertrain with four-wheel drive and a removable hard top. Built around outdoor adventures with room for five.",
+    "photos": [
+      {
+        "src": "assets/cars/car-9-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Jeep_Wrangler%2C_front_NYIAS_2023.jpg",
+        "author": "Kevauto",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Jeep Wrangler Unlimited 2.0 AT — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-9-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Jeep_Wrangler%2C_rear_NYIAS_2023.jpg",
+        "author": "Kevauto",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Jeep Wrangler Unlimited 2.0 AT — reference exterior 2"
+      }
+    ],
+    "trans": "Automatic",
+    "owners": "1st Owner",
+    "body": "SUV",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-9-1.jpg"
+  },
+  {
+    "id": "car-10",
+    "make": "Jeep",
+    "model": "Grand Cherokee Limited 2.0 AT",
+    "year": 2023,
+    "priceLakh": 54.9,
+    "mileage": 22300,
+    "fuel": "Petrol",
+    "engineCc": 1995,
+    "seats": 5,
+    "gearbox": "8-speed automatic",
+    "hub": "Bellandur Hub",
+    "features": [
+      "Four-wheel Drive",
+      "Panoramic Sunroof",
+      "Leather Upholstery",
+      "Dual-zone Climate Control"
+    ],
+    "description": "A spacious premium five-seat SUV with a turbo-petrol automatic powertrain. A refined cabin, generous luggage space and four-wheel drive make it well suited to family touring.",
+    "photos": [
+      {
+        "src": "assets/cars/car-10-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Front_Left%2C_01-16-2022.jpg",
+        "author": "Elise240SX",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 1",
+        "alt": "Jeep Grand Cherokee Limited 2.0 AT — reference exterior 1"
+      },
+      {
+        "src": "assets/cars/car-10-2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Rear_Left%2C_01-16-2022.jpg",
+        "author": "Elise240SX",
+        "licence": "CC BY-SA 4.0",
+        "label": "Exterior 2",
+        "alt": "Jeep Grand Cherokee Limited 2.0 AT — reference exterior 2"
+      }
+    ],
+    "trans": "Automatic",
+    "owners": "1st Owner",
+    "body": "SUV",
+    "badge": "Sample listing",
+    "score": "Not inspected",
+    "registration": "Karnataka",
+    "image": "assets/cars/car-10-1.jpg"
   }
 ];
